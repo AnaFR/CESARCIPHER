@@ -4,7 +4,7 @@
 
 Quiénes son los principales usuarios de producto:
 
-- Cualquier persona que quiera mandar un mesaje cifrado a su pareja.
+- Cualquier persona que quiera mandar un mensaje cifrado a su pareja.
 
 
 
