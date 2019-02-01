@@ -1,18 +1,33 @@
 
 
-#tittle {
-    color: white;
-    text-align: center;
-}
-
-
-
 body{
     background: #9E10AB;
 }
 
-h1 {
+h1, h3 {
     color: white;
     text-align: center;
+    font-style: oblique;
+    font-size: 50px;
   }
-  
+
+
+  p{
+    color: white;
+    font-size: 20px;
+
+  }
+
+  #comenzar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 12px;
+    border: 2px solid #0016b0
+    
+    
+
+  }

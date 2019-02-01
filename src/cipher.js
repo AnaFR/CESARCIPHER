@@ -9,11 +9,11 @@ function encriptar (texto, desplazamientos) {
         const codigoASCII = (texto.charCodeAt(indiceLetraActual)-65+desplazamientos)%26+65;
         if (texto[indiceLetraActual] == " ") secreto = secreto + " ";
         else secreto= secreto + String.fromCharCode(codigoASCII);
-  }
-  return secreto;
+    }
+    return secreto;    
 }
 
-  function desencriptar (texto, desplazamientos) {
+function desencriptar (texto, desplazamientos) {
     if (desplazamientos > 33) {
         process.stdout.write("Valores permitidos solo de 1 a 33");
         return;
@@ -26,8 +26,3 @@ function encriptar (texto, desplazamientos) {
     }
     return revelado;
 }
-
-let despl = 33
-let mySecreto = encriptar("ANA LAURA", despl)
-process.stdout.write(mySecreto + "\n")
-process.stdout.write(desencriptar(mySecreto, despl))
