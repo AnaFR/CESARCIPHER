@@ -7,31 +7,30 @@
     </head>
     <body>
         <div id ="Instrucciones">
-        <h1>Bienvenido <br>¡Unlock your love message!</h1>
-        <h2>Instrucciones</h2>
-        <p>El cifrado César consiste en sustituir cada letra del abecedario por una letra desplazada 
-           un número determinado de posiciones.<br>Ejemplo, si desplazamos 1 posición,
-           reemplazaríamos la letra A con la B, la B con la C, y así sucesivamente hasta sustituir la Z
-           por la A. <br>
-           En este cifrado se te permiten hasta 33 desplazamientos. <br>
-           1. Para iniciar a cifrar y desifrar, ingresa tu numero de desplazamientos. <br>
-           2. Ingresa tu texto ya sea encriptado o desencriptado.</p>
-         <center>  <button id = "comenzar">Comenzar</button>
+        <h1>Welcome<br>¡Unlock your love mess@ge!</h1>
+        <img id= "corazon" src="https://image.flaticon.com/icons/svg/37/37832.svg" width="1450" height="300"><br/><br/><br/>			 
+        <center>  <button id = "comenzar">Start</button> </center>
         </div>
-        <center>
-        <div id ="appView">
-            <h3>Ingresa tu numero de desplazamientos</h3>
-            <input type="text" id= "cajaDesplazamientos"  size="1"/></br></br>
-            <h4>Ingresa el texto</h4>
-            <input type="text" id= "cajaTexto" size="40"/></br></br>
-            <button  type ="submit"  button onclick="ejecutaOperacion('enc')">Encriptar</button>
-            <button  type ="submit"  onclick="ejecutaOperacion('dec')">Desencriptar</button>
-          <h5>Resultado</h5>
-            <input type="text" id= "cajaResultado"  size="50"/></br></br>
-            <button  id="intentar">Volver a intentar</button></br></br>
-            <button  id="Regresar">Regresar</button>
+        <center>  
+            <div id ="appView">
+                    <h2>♥ Instrucciones ♥</h2>
+                    <p>"Este juego se basa en el cifrado César, el cual consiste en sustituir cada letra del abecedario por una letra desplazada un número determinado de posiciones."<br> <br>
+            
+                        ♥ Para iniciar a cifrar y descifrar, ingresa tu número de desplazamientos. (Se permiten Máximo 33) <br>
+                        ♥ Ingresa tu texto encriptado o desencriptado.</p>
+            
+                <h3>Ingresa tu número de desplazamientos:</h3>
+                <input type="text" id= "cajaDesplazamientos"  size="1"/><br>
+                <h4>🙊Ingresa el texto:</h4>
+            <input type="text" id= "cajaTexto" size="40"/><br><br>
+                <button   id= "encrip">Encriptar</button> 
+                <button   id = "descrip" >Desencriptar</button>
+            <h5>Resultado:</h5>
+                <input type="text" id= "cajaResultado"  size="50"/><br><br>
+                <button  id="intentar">Volver a intentar</button>
+                <button  id="Regresar">Regresar</button>
+            </div>
         </center>
-        </div>
 
         <script src="cipher.js"></script>
         <script src="index.js"></script>

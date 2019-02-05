@@ -2,30 +2,34 @@ function comenzar() {
     document.getElementById("Instrucciones").style.display = "none";
     document.getElementById("appView").style.display = "inline";
 }
-
 document.getElementById("comenzar").addEventListener ("click", comenzar);
 
-function ejecutaOperacion(op) {
+function ejecutaEncriptado() {
     const despl = parseInt(document.getElementById("cajaDesplazamientos").value);
     let secret = document.getElementById("cajaTexto").value;
-    secret  = secret.toUpperCase ();
-    let resultado;
-    if (op == "enc") { 
-        resultado = encriptar(secret, despl); 
-    } else {
-        resultado =  desencriptar(secret, despl);
-    }
+    let resultado; 
+    
+    resultado = cipher.encode( despl, secret); 
+     
     document.getElementById("cajaResultado").value = resultado;
 }
+document.getElementById("encrip").addEventListener ("click", ejecutaEncriptado);
+
+function ejecutaDesencriptado() {
+    const despl = parseInt(document.getElementById("cajaDesplazamientos").value);
+    let secret = document.getElementById("cajaTexto").value;
+    let resultado; 
+    resultado =cipher.decode( despl, secret); 
+     
+    document.getElementById("cajaResultado").value = resultado;
+}
+document.getElementById("descrip").addEventListener ("click", ejecutaDesencriptado);
 
 document.getElementById("appView").style.display = "none";
-
-
 function intentar(){
-cajaDesplazamientos.value =" ";
-cajaTexto.value =" ";
-cajaResultado.value = " ";
-
+    document.getElementById("cajaDesplazamientos").value =" ";
+    document.getElementById("cajaTexto").value =" ";
+    document.getElementById("cajaResultado").value = " ";
 }
 
 document.getElementById("intentar").addEventListener ("click", intentar);

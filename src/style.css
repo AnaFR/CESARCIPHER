@@ -1,22 +1,58 @@
+#appView {
+  display: flex;
+
+  }
 
 
 body{
-    background: #9E10AB;
+    background:
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+background-color: #300;
+background-size: 100px 100px;
+
+
 }
 
-h1, h3 {
+h1 {
     color: white;
     text-align: center;
     font-style: oblique;
     font-size: 50px;
   }
 
+h2, h4 {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px
+
+}
+
+h3, h5 {
+  color: white;
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+  
+}
+
 
   p{
     color: white;
-    font-size: 20px;
+    font-size: 27px;
+    font: message-box;
+    }
 
-  }
+  
 
   #comenzar{
     text-decoration: none;
@@ -24,10 +60,28 @@ h1, h3 {
     font-weight: 600;
     font-size: 30px;
     color: #ffffff;
-    background-color: #1883ba;
+    background-color: black;
     border-radius: 12px;
-    border: 2px solid #0016b0
-    
-    
 
+    border: 2px solid white;
+    
+  
+  }
+
+  #intentar, #Regresar, #encrip, #descrip{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 12px;
+
+    border: 2px solid white;
+    
+  
+  }
+
+  button {
+    margin: 10px;
   }

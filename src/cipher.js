@@ -1,28 +1,47 @@
+window.cipher = {
 
-function encriptar (texto, desplazamientos) {
+
+encode:function (desplazamientos, texto) {
     if (desplazamientos > 33) {
-        process.stdout.write("Valores permitidos solo de 1 a 33");
+        alert("Solo se permiten desplazamientos del 1 al 33");
         return;
     }
     let secreto = "";
+    let textoOriginal = texto;
+    texto = texto.toUpperCase ();
     for (let indiceLetraActual = 0; indiceLetraActual<texto.length; indiceLetraActual++) {
         const codigoASCII = (texto.charCodeAt(indiceLetraActual)-65+desplazamientos)%26+65;
         if (texto[indiceLetraActual] == " ") secreto = secreto + " ";
-        else secreto= secreto + String.fromCharCode(codigoASCII);
+        else if (texto [indiceLetraActual]== "Ñ") secreto = secreto + "-";
+        else { 
+            let caracterEncrip =  String.fromCharCode(codigoASCII);
+            if (textoOriginal[indiceLetraActual] == texto[indiceLetraActual])
+                secreto = secreto + caracterEncrip;
+            else secreto = secreto + caracterEncrip.toLowerCase ();
+        }
     }
     return secreto;    
-}
+},
 
-function desencriptar (texto, desplazamientos) {
+decode:function (desplazamientos, texto) {
     if (desplazamientos > 33) {
-        process.stdout.write("Valores permitidos solo de 1 a 33");
+        alert("Solo se permiten desplazamientos del 1 al 33");
         return;
     }
     let revelado = "";
+    let textoOriginal = texto;
+    texto = texto.toUpperCase ();
     for (let indiceLetraActual = 0; indiceLetraActual<texto.length; indiceLetraActual++) {
         const codigoDesencriptado = (texto.charCodeAt(indiceLetraActual)+ 65-desplazamientos)%26+65;
         if (texto[indiceLetraActual] == " ") revelado = revelado +" ";
-        else revelado = revelado + String.fromCharCode(codigoDesencriptado);
+        else if (texto [indiceLetraActual] == "-") revelado = revelado +"Ñ";
+        else {
+            let cararcterDesencrip =  String.fromCharCode(codigoDesencriptado);
+            if (textoOriginal[indiceLetraActual] == texto[indiceLetraActual])
+                revelado = revelado + cararcterDesencrip;
+            else revelado = revelado + cararcterDesencrip.toLowerCase ();
+        }
     }
     return revelado;
 }
+};
