@@ -1,6 +1,5 @@
 window.cipher = {
 
-
 encode:function (desplazamientos, texto) {
     if (desplazamientos > 33) {
         alert("Solo se permiten desplazamientos del 1 al 33");

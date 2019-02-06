@@ -11,8 +11,8 @@
 
 
 ## Principales usuarios de producto:
-⋅⋅*  Personas mayores de edad
-⋅⋅*  Cualquier persona que quiera mandar un mensaje cifrado a su pareja.
+Personas mayores de edad
+ Cualquier persona que quiera mandar un mensaje cifrado a su pareja.
 
 
 ##Cuáles son los objetivos de estos usuarios en relación con tu producto:
