@@ -1,10 +1,10 @@
 # CIFRADO CÉSAR
 
-### Descripción del proyecto
+## Descripción del proyecto
 
 Crear una web que sirva para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento de 33 caracteres (offset).
 
-## Interfaz de usuario (UI)
+### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
 
@@ -15,36 +15,37 @@ La interfaz debe permitir al usuario:
 * Ver el resultado del mensaje descifrado.
 
 
-# Información sobre el  proceso y Decisiones de diseño
+### Información sobre el  proceso y Decisiones de diseño
  
- * 
- *
+ * La decision de diseño fue alusivo al 14 de Febrero (Día del amor y la amistad), pensando enviar un mensaje encriptado
+ a la pareja.
+ * Se diseñarón dos pantallas : la primera de bienvenida y la segunda donde esta el cifrado César.
 
 
 
 
 
-# Principales usuarios del producto
+### Principales usuarios del producto
 
 * Personas mayores de edad
-* Cualquier persona que quiera mandar un mensaje cifrado a su pareja.
+* Cualquier persona que quiera mandar un mensaje cifrado a su pareja
 
 
- # Objetivos de los usuarios en relación al producto
+ ### Objetivos de los usuarios en relación al producto
 
 * Utilizar el cifrado César 
 * Encriptar y desencriptar mensajes
-* Utilizar una comunicación creativa con la pareja.
+* Utilizar una comunicación creativa con la pareja
 
 
 
 
-# Problemas resueltos con el producto:
+### Problemas resueltos con el producto:
 
-* Privacidad y segridad de comunicación entre parejas.
-* Creatividad entre las parejas.
+* Privacidad y seguridad de comunicación 
+* Creatividad 
 
 
-# Hacker edition
+### Hacker edition
 
 * Cifra y descifra texto en minúsculas.
