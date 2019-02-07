@@ -15,17 +15,10 @@ La interfaz debe permitir al usuario:
 * Ver el resultado del mensaje descifrado.
 
 
-# Información sobre el  proceso 
-
-La primer pantalla te muestra la bienvenida y un botón para comenzar.
-
-En la segunda pantalla, muestra al usuario las instrucciones y el encriptado y desencriptado
-
-
-Primero decidi trabajar con cipher.js en las funcioens encode y decode
-
-# Decisiones de diseño
-
+# Información sobre el  proceso y Decisiones de diseño
+ 
+ * 
+ *
 
 
 
