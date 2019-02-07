@@ -1,42 +1,57 @@
-# CESARCIPHER
+# CIFRADO CÉSAR
 
-                       # 1er Proyecto Bootcamp
+### Descripción del proyecto
 
-# info sobre proceso y decisiones de diseño
+Crear una web que sirva para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento de 33 caracteres (offset).
 
-Originalmente decidi hacer una pantalla para todo el proyecto, pero conforme avanzaba en el proyecto s decidi hacerlo de dos pantallas
+## Interfaz de usuario (UI)
+
+La interfaz debe permitir al usuario:
+
+* Elegir un desplazamiento (offset) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+* Insertar un mensaje (texto) que queremos cifrar.
+* Ver el resultado del mensaje cifrado.
+* Insertar un mensaje (texto) a descifrar.
+* Ver el resultado del mensaje descifrado.
+
+
+# Información sobre el  proceso 
 
 La primer pantalla te muestra la bienvenida y un botón para comenzar.
 
-La segunda pantalla 
+En la segunda pantalla, muestra al usuario las instrucciones y el encriptado y desencriptado
+
 
 Primero decidi trabajar con cipher.js en las funcioens encode y decode
 
-
-
-Descripción del proyecto
-
+# Decisiones de diseño
 
 
 
 
-## Principales usuarios de producto:
-Personas mayores de edad
- Cualquier persona que quiera mandar un mensaje cifrado a su pareja.
 
 
-##Cuáles son los objetivos de estos usuarios en relación con tu producto:
-⋅ Utilizar el cifrado César 
-⋅Encriptar y desencriptar mensajes
-  Utilizar una comunicación creativa con tu pareja.
+# Principales usuarios del producto
+
+* Personas mayores de edad
+* Cualquier persona que quiera mandar un mensaje cifrado a su pareja.
 
 
+ # Objetivos de los usuarios en relación al producto
 
-
-##Cómo crees que el producto que estás creando está resolviendo sus problemas:
-
-⋅⋅*  Mayor privacidad de comunicación entre parejas.
-⋅⋅* Creatividad entre las parejas.
+* Utilizar el cifrado César 
+* Encriptar y desencriptar mensajes
+* Utilizar una comunicación creativa con la pareja.
 
 
 
+
+# Problemas resueltos con el producto:
+
+* Privacidad y segridad de comunicación entre parejas.
+* Creatividad entre las parejas.
+
+
+# Hacker edition
+
+* Cifra y descifra texto en minúsculas.
