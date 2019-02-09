@@ -4,8 +4,8 @@ function comenzar() {
 }
 document.getElementById("comenzar").addEventListener ("click", comenzar);
 
-function ejecutaEncriptado() {
-    const despl = parseInt(document.getElementById("cajaDesplazamientos").value);
+function ejecutaEncriptado() {  // botón encriptado
+    const despl = parseInt(document.getElementById("cajaDesplazamientos").value); // pqeSeint
     let secret = document.getElementById("cajaTexto").value;
     let resultado; 
     
@@ -15,7 +15,7 @@ function ejecutaEncriptado() {
 }
 document.getElementById("encrip").addEventListener ("click", ejecutaEncriptado);
 
-function ejecutaDesencriptado() {
+function ejecutaDesencriptado() { // botón desencriptado
     const despl = parseInt(document.getElementById("cajaDesplazamientos").value);
     let secret = document.getElementById("cajaTexto").value;
     let resultado; 

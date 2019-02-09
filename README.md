@@ -1,4 +1,3 @@
-# CIFRADO CÉSAR
 
 ## Descripción del proyecto
 
@@ -17,8 +16,7 @@ La interfaz debe permitir al usuario:
 
 ### Información sobre el  proceso y Decisiones de diseño
  
- * La decision de diseño fue alusivo al 14 de Febrero (Día del amor y la amistad), pensando enviar un mensaje encriptado
- a la pareja.
+ * La decision de diseño fue alusivo al 14 de Febrero (Día del amor y la amistad), pensado para enviar un mensaje encriptado a la pareja.
  * Se diseñarón dos pantallas : la primera de bienvenida y la segunda donde esta el cifrado César.
 
 
